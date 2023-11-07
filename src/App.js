@@ -115,7 +115,7 @@ onButtonSubmit = () => {
     })
     .then(data => {
       if (data) {
-        fetch("https://smartbrain-sj9r.onrender.com/image", {
+        fetch("https://smartbrainbackend-zj6z.onrender.com/image", {
           method: "put",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
